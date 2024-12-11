@@ -55,6 +55,26 @@ h2{
     margin-top: 1%;
 }
 
+#boton-aventura {
+    font-family: 'MiTipografia', serif;
+    font-size: 20px; 
+    padding: 20px 40px; 
+    border-radius: 12px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    transition: all 0.3s ease; 
+    display: inline-block; 
+    text-align: center; 
+}
+
+#boton-aventura:hover {
+    background-color: #218838;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+}
+
 #boton-juego {
     font-family: 'MiTipografia', serif;
     font-size: 20px; 
