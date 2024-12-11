@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'MiTipografia'; /* Nombre que usarás en CSS */
-    src: url('ferbtastic/PhineasyFerb.ttf') format('truetype'); /* Archivo principal en formato TTF */
+    font-family: 'MiTipografia';
+    src: url('ferbtastic/PhineasyFerb.ttf') format('truetype'); 
     font-weight: normal;
     font-style: normal;
   }
@@ -41,8 +41,8 @@ h2{
     margin-top: 5%;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    position: relative;  /* Necesario para que el contenido quede por encima de la imagen */
-    z-index: 1;  /* Asegura que el contenido esté encima de la imagen */
+    position: relative; 
+    z-index: 1;  
 }
 
 .imagenes-aventura{
@@ -57,23 +57,22 @@ h2{
 
 #boton-juego {
     font-family: 'MiTipografia', serif;
-    font-size: 20px; /* Aumenta el tamaño de la fuente */
-    padding: 20px 40px; /* Aumenta el tamaño del botón */
-    border-radius: 12px; /* Redondea las esquinas */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    background-color: #28a745; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    border: none; /* Elimina el borde */
-    transition: all 0.3s ease; /* Efecto suave al pasar el mouse */
-    display: inline-block; /* Asegura que el botón no ocupe toda la línea */
-    text-align: center; /* Centra el texto dentro del botón */
+    font-size: 20px; 
+    padding: 20px 40px; 
+    border-radius: 12px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    transition: all 0.3s ease; 
+    display: inline-block; 
+    text-align: center; 
 }
 
-/* Efecto cuando el mouse pasa sobre el botón */
 #boton-juego:hover {
-    background-color: #218838; /* Color de fondo al hacer hover */
-    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3); /* Sombra más grande al hacer hover */
-    transform: scale(1.05); /* Agranda el botón un poco */
+    background-color: #218838;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
 }
 
 .clase-contenido{
